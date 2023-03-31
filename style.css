@@ -1,0 +1,110 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap'); */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+
+.servermaintainance {
+  height: 100vh;
+  background: #f2ffe3;
+  text-align: center;
+  position: relative;
+}
+
+.servermaintainance_content {
+  position: relative;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 50%;
+}
+
+.servermaintainance_content h5 {
+  font-size: 3rem;
+  font-weight: 700;
+}
+.servermaintainance_content h1 {
+  font-size: 80px;
+  font-weight: 600;
+  color: #679b01;
+}
+.servermaintainance_content span {
+  font-size: 12px;
+  font-weight: 600;
+  text-align: center;
+}
+.servermaintainance_content span p {
+  font-size: 16px;
+  font-weight: 600;
+  padding-top: 10px;
+}
+
+.servermaintainance_image {
+  display: flex;
+  position: absolute;
+  bottom: 28px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.servermaintainance_image img {
+  margin: 0 auto;
+  width: 100%;
+  max-width: 1000px;
+  height: auto;
+}
+
+.servermaintainance_bottomlayer {
+  position: absolute;
+  bottom: 0;
+  height: 30px;
+  width: 100%;
+  background-color: #92db00;
+}
+
+@media only screen and (max-width: 1300px) {
+  .servermaintainance_content {
+    height: 50%;
+  }
+  .servermaintainance_image img {
+    max-width: 850px;
+    height: auto;
+  }
+}
+
+@media only screen and (max-width: 801px) {
+  .servermaintainance_content {
+    height: 80%;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  .servermaintainance_content {
+    height: 80%;
+  }
+
+  .servermaintainance_content h5 {
+    font-size: 2rem;
+    font-weight: 700;
+  }
+  .servermaintainance_content h1 {
+    font-size: 2.5rem;
+    font-weight: 600;
+    color: #679b01;
+  }
+  .servermaintainance_content span {
+    font-size: 12px;
+    font-weight: 600;
+    text-align: center;
+  }
+  .servermaintainance_content span p {
+    font-size: 16px;
+    line-height: 2rem;
+    font-weight: 600;
+  }
+}
